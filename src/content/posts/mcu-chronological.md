@@ -21,7 +21,7 @@ draft: false
 10. Captain America: The Winter Soldier
 11. Guardians of the Galaxy
 12. Guardians of the Galaxy Vol. 2
-13. Avengers: Age of Ultron *[Next]*
+13. Avengers: Age of Ultron
 14. Ant-Man
 15. Captain America: Civil War
 16. Black Widow
@@ -60,6 +60,4 @@ draft: false
 
 Strikeout means you can watch the movie after the movie before it, You can technically watch `Ant-Man and the Wasp` after `Avengers: Infinity War` But its better to watch it before.
 
-Italics will only be put on the *[Non-MCU]* & *[Next]* tag, This is to show what movie I need to watch next on the list.
-
-Movies marked with "Non-MCU" do not fall into the MCU continuity.
+Italics will only be put on the *[Non-MCU]* tag, Movies marked with "*[Non-MCU]*" do not fall into the MCU continuity.
