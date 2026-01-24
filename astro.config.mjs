@@ -156,6 +156,7 @@ export default defineConfig({
 	},
 	vite: {
 		build: {
+			sourcemap: false,
 			rollupOptions: {
 				onwarn(warning, warn) {
 					// temporarily suppress this warning
@@ -167,7 +168,6 @@ export default defineConfig({
 					}
 					warn(warning);
 				},
-				sourcemap: false,
 			},
 		},
 	},
