@@ -15,7 +15,7 @@ I now have a new blog website. It is based on the Fuwari template. You can find 
 I will be posting content related to myself and the things I work on, including games, projects, servers, and similar topics.
 
 *Read and remember, **tides will turn.***
-## Source Upstream
+## Fuwari Source
 ::github{repo="saicaca/fuwari"}
 
 ## MystixMew's Source
