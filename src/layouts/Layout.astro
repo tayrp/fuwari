@@ -20,7 +20,6 @@ import type { Favicon } from "../types/config";
 import { pathsEqual, url } from "../utils/url-utils";
 import "katex/dist/katex.css";
 import Analytics from '@vercel/analytics/astro'
-<Analytics/>
 
 interface Props {
 	title?: string;
@@ -158,6 +157,7 @@ const bannerOffset =
 
 		<!-- increase the page height during page transition to prevent the scrolling animation from jumping -->
 		<div id="page-height-extend" class="hidden h-[300vh]"></div>
+		<Analytics client:only="react" />
 	</body>
 </html>
 
