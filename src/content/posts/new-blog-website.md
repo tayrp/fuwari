@@ -10,6 +10,7 @@ lang: 'en'
 ---
 
 I now have a new blog website. It is based on the Fuwari template. You can find the link at the bottom of this post.
+I've also migrated all my previous posts to this new site, view them on the Archive page. :)
 
 ## What kind of posts?
 I will be posting content related to myself and the things I work on, including games, projects, servers, and similar topics.
