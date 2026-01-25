@@ -78,6 +78,11 @@ export const profileConfig: ProfileConfig = {
 			icon: "fa6-brands:github",
 			url: "https://github.com/tayrp/fuwari",
 		},
+		{
+			name: "Last.fm",
+			icon: "fa6-brands:lastfm",
+			url: "https://last.fm/user/mystixmew",
+		},
 	],
 };
 
