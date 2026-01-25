@@ -11,7 +11,7 @@ lang: 'en'
 
 I have a new blog website, thanks to the Fuwari template, you can view it below.
 
-*Read and remember, **Tides will turn.***
+*Read and remember, **tides will turn.***
 
 ## Source Upstream
 ::github{repo="saicaca/fuwari"}
