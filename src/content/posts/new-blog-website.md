@@ -5,13 +5,13 @@ description: 'I now have a new blog website'
 image: ''
 tags: ['Fuwari']
 category: 'Personal'
-draft: true
+draft: false
 lang: 'en'
 ---
 
 I have a new blog website, thanks to the Fuwari template, you can view it below.
 
-***Tides will turn.***
+*Read and remember, **Tides will turn.***
 
 ## Source Upstream
 ::github{repo="saicaca/fuwari"}
