@@ -44,7 +44,4 @@ Server automatically restarts every day, it will broadcast in the chat when it d
 
 To join the server, link your Discord account to Minecraft in our Discord.
 
-## What kind of posts?
-I will be posting content related to myself and the things I work on, including games, projects, servers, and similar topics.
-
 *Read and remember, **tides will turn.***
