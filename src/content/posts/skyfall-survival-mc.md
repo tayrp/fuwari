@@ -1,6 +1,6 @@
 ---
 title: Skyfall Survival
-published: 2026-03-02
+published: 2026-02-03
 description: About my Skyfall Survival Minecraft server!
 tags: [Personal, Minecraft, Gaming, Survival]
 category: Personal
