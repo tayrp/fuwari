@@ -16,8 +16,7 @@ A small but friendly survival server with a laid-back community where everyone i
 
 To join, hop into our Discord to get whitelisted. All you need to do is DM a bot, and it will automatically whitelist you.
 
-Discord: [https://discord.gg/zJ86UT6kj7](https://discord.gg/zJ86UT6kj7)  
-\-
+Discord: [https://discord.gg/zJ86UT6kj7](https://discord.gg/zJ86UT6kj7)\
 
 Java IP: [`vee.kinetic.host`](http://vee.kinetic.host)
 
@@ -25,20 +24,17 @@ Java Port: `25590`
 
 Bedrock IP: [`172.240.47.111`](http://172.240.47.111)
 
-Bedrock Port: `27015`  
-\-
+Bedrock Port: `27015`\
 
 Optional Mods: (Not available for Bedrock)
 
 [Simple Voice Chat](https://modrinth.com/plugin/simple-voice-chat)
 
-[Female Gender Mod](https://modrinth.com/mod/female-gender)  
-\-
+[Female Gender Mod](https://modrinth.com/mod/female-gender)\
 
 BlueMap: [http://skyfall.valerie.lol:25596/](http://skyfall.valerie.lol:25596/)
 
-Dynmap: [http://skyfall.valerie.lol:25592](http://skyfall.valerie.lol:25592)  
-\-
+Dynmap: [http://skyfall.valerie.lol:25592](http://skyfall.valerie.lol:25592)\
 
 Server automatically restarts every day, it will broadcast in the chat when it does.
 
