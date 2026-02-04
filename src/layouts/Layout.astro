@@ -50,10 +50,35 @@ const enableBanner = siteConfig.banner.enable;
 
 let pageTitle: string;
 if (title) {
-	pageTitle = `${title} - ${siteConfig.title}`;
+	// put specific page title first for better search snippets
+	pageTitle = `${title} | ${siteConfig.title}`;
 } else {
 	pageTitle = `${siteConfig.title} - ${siteConfig.subtitle}`;
 }
+
+// Meta description fallback logic
+const metaDescription = description || siteConfig.description || siteConfig.subtitle || pageTitle;
+
+// Canonical url
+const canonicalUrl = String(Astro.url);
+
+// Build keywords: prefer siteConfig.keywords if provided
+const defaultKeywords = [
+	"movies",
+	"mystixmew",
+	"archive",
+	"chronological",
+	"fuwari",
+	"blog",
+	"blog website",
+	"github",
+	"rss",
+	"home archive",
+	"new blog",
+];
+const keywords = siteConfig.keywords && Array.isArray(siteConfig.keywords) && siteConfig.keywords.length > 0
+	? siteConfig.keywords.join(", ")
+	: defaultKeywords.join(", ");
 
 const favicons: Favicon[] =
 	siteConfig.favicon.length > 0 ? siteConfig.favicon : defaultFavicons;
@@ -71,6 +96,11 @@ const bannerOffsetByPosition = {
 };
 const bannerOffset =
 	bannerOffsetByPosition[siteConfig.banner.position || "center"];
+
+// OG / Twitter image fallback
+const ogImage = siteConfig.ogImage || banner || `${Astro.site}og-image.png`;
+// Schema identifiers
+const publisherName = profileConfig.name || siteConfig.title;
 ---
 
 <!DOCTYPE html>
@@ -82,25 +112,37 @@ const bannerOffset =
 		<title>{pageTitle}</title>
 
 		<meta charset="UTF-8" />
-		<meta name="description" content={description || pageTitle}>
-		<meta name="author" content={profileConfig.name}>
+		<meta name="description" content={metaDescription} />
+		<meta name="keywords" content={keywords} />
+		<meta name="author" content={profileConfig.name} />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="robots" content="index, follow" />
+		<meta name="theme-color" content={`hsl(${configHue} 70% 50%)`} />
 
-		<meta property="og:site_name" content={siteConfig.title}>
-		<meta property="og:url" content={Astro.url}>
-		<meta property="og:title" content={pageTitle}>
-		<meta property="og:description" content={description || pageTitle}>
+		<!-- Search engine verification placeholders - replace with actual tokens -->
+		<!-- <meta name="google-site-verification" content="YOUR_GOOGLE_TOKEN_HERE" /> -->
+		<!-- <meta name="msvalidate.01" content="YOUR_BING_TOKEN_HERE" /> -->
+
+		<!-- Open Graph -->
+		<meta property="og:site_name" content={siteConfig.title} />
+		<meta property="og:url" content={canonicalUrl} />
+		<meta property="og:title" content={pageTitle} />
+		<meta property="og:description" content={metaDescription} />
 		{setOGTypeArticle ? (
-        <meta property="og:type" content="article" />
-        ) : (
-        <meta property="og:type" content="website" />
-        )}
+			<meta property="og:type" content="article" />
+		) : (
+			<meta property="og:type" content="website" />
+		)}
+		<meta property="og:image" content={ogImage} />
+		<meta property="og:image:alt" content={siteConfig.title} />
 
-		<meta name="twitter:card" content="summary_large_image">
-		<meta property="twitter:url" content={Astro.url}>
-		<meta name="twitter:title" content={pageTitle}>
-		<meta name="twitter:description" content={description || pageTitle}>
+		<!-- Twitter card -->
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta property="twitter:url" content={canonicalUrl} />
+		<meta name="twitter:title" content={pageTitle} />
+		<meta name="twitter:description" content={metaDescription} />
+		<meta name="twitter:image" content={ogImage} />
 
-		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
 		{favicons.map(favicon => (
 			<link rel="icon"
@@ -109,6 +151,45 @@ const bannerOffset =
 				  media={favicon.theme && `(prefers-color-scheme: ${favicon.theme})`}
 			/>
 		))}
+
+		<link rel="canonical" href={canonicalUrl} />
+		<link rel="alternate" type="application/rss+xml" title={profileConfig.name} href={`${Astro.site}rss.xml`} />
+		<link rel="sitemap" type="application/xml" title="Sitemap" href={`${Astro.site}sitemap.xml`} />
+		<link rel="manifest" href="/site.webmanifest" />
+
+		<!-- Structured data for WebSite and WebPage to help search engines -->
+		<script type="application/ld+json" is:inline>
+{`{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "${Astro.site}#website",
+      "url": "${Astro.site}",
+      "name": "${siteConfig.title}",
+      "description": "${(siteConfig.description || siteConfig.subtitle || '').replace(/"/g, '\\"')}",
+      "publisher": {
+        "@type": "Organization",
+        "name": "${publisherName}"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "${Astro.site}search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "${canonicalUrl}#webpage",
+      "url": "${canonicalUrl}",
+      "name": "${pageTitle.replace(/"/g, '\\"')}",
+      "isPartOf": { "@id": "${Astro.site}#website" },
+      "headline": "${pageTitle.replace(/"/g, '\\"')}",
+      "description": "${metaDescription.replace(/"/g, '\\"')}"
+    }
+  ]
+}`}
+		</script>
 
 		<!-- Set the theme before the page is rendered to avoid a flash -->
 		<script is:inline define:vars={{DEFAULT_THEME, LIGHT_MODE, DARK_MODE, AUTO_MODE, BANNER_HEIGHT_EXTEND, PAGE_WIDTH, configHue}}>
@@ -145,8 +226,6 @@ const bannerOffset =
 
 
 		<slot name="head"></slot>
-
-		<link rel="alternate" type="application/rss+xml" title={profileConfig.name} href={`${Astro.site}rss.xml`}/>
 
 	</head>
 	<body class=" min-h-screen transition " class:list={[{"lg:is-home": isHomePage, "enable-banner": enableBanner}]}
@@ -564,6 +643,6 @@ const setup = () => {
 if (window.swup) {
 	setup()
 } else {
-	document.addEventListener("swup:enable", setup)
+	document.addEventListener('swup:enable', setup)
 }
 </script>
