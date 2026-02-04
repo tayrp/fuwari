@@ -19,7 +19,7 @@ import { defaultFavicons } from "../constants/icon";
 import type { Favicon } from "../types/config";
 import { pathsEqual, url } from "../utils/url-utils";
 import "katex/dist/katex.css";
-import Analytics from '@vercel/analytics/astro'
+import Analytics from "@vercel/analytics/astro";
 
 interface Props {
 	title?: string;
@@ -57,7 +57,8 @@ if (title) {
 }
 
 // Meta description fallback logic
-const metaDescription = description || siteConfig.description || siteConfig.subtitle || pageTitle;
+const metaDescription =
+	description || siteConfig.description || siteConfig.subtitle || pageTitle;
 
 // Canonical url
 const canonicalUrl = String(Astro.url);
@@ -76,9 +77,12 @@ const defaultKeywords = [
 	"home archive",
 	"new blog",
 ];
-const keywords = siteConfig.keywords && Array.isArray(siteConfig.keywords) && siteConfig.keywords.length > 0
-	? siteConfig.keywords.join(", ")
-	: defaultKeywords.join(", ");
+const keywords =
+	siteConfig.keywords &&
+	Array.isArray(siteConfig.keywords) &&
+	siteConfig.keywords.length > 0
+		? siteConfig.keywords.join(", ")
+		: defaultKeywords.join(", ");
 
 const favicons: Favicon[] =
 	siteConfig.favicon.length > 0 ? siteConfig.favicon : defaultFavicons;
@@ -227,6 +231,8 @@ const publisherName = profileConfig.name || siteConfig.title;
 
 		<slot name="head"></slot>
 
+		<Analytics />
+
 	</head>
 	<body class=" min-h-screen transition " class:list={[{"lg:is-home": isHomePage, "enable-banner": enableBanner}]}
 		  data-overlayscrollbars-initialize
@@ -236,7 +242,6 @@ const publisherName = profileConfig.name || siteConfig.title;
 
 		<!-- increase the page height during page transition to prevent the scrolling animation from jumping -->
 		<div id="page-height-extend" class="hidden h-[300vh]"></div>
-		<Analytics client:only="react" />
 	</body>
 </html>
 
