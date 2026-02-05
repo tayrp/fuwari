@@ -3,8 +3,8 @@ title: Skyfall Survival
 published: 2026-02-03
 description: About my Skyfall Survival Minecraft server!
 image: './media/skyfall/skyfall-banner1.png'
-tags: [Personal, Minecraft, Gaming, Survival]
-category: Personal
+tags: [Minecraft, Gaming, Survival]
+category: Work
 draft: false
 ---
 

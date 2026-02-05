@@ -3,7 +3,7 @@ title: Rose Haven Network
 published: 2026-02-05
 description: 'Rose Haven Network is an Anti-P2W Server Network with a Cobblemon server.'
 image: './media/rhn/corn-build1.png'
-tags: ['Minecraft', 'Cobblemon', 'Pixelmon', 'Pokémon']
+tags: [Minecraft, Cobblemon, Pixelmon, Pokémon]
 category: 'Work'
 draft: false
 lang: 'en'
