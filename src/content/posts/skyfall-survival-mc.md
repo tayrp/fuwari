@@ -2,6 +2,7 @@
 title: Skyfall Survival
 published: 2026-02-03
 description: About my Skyfall Survival Minecraft server!
+image: './media/skyfall/skyfall-banner1.png'
 tags: [Personal, Minecraft, Gaming, Survival]
 category: Personal
 draft: false
@@ -17,31 +18,26 @@ A small but friendly survival server with a laid-back community where everyone i
 To join, hop into our Discord to get whitelisted. All you need to do is DM a bot, and it will automatically whitelist you.
 
 Discord: [https://discord.gg/zJ86UT6kj7](https://discord.gg/zJ86UT6kj7)  
-\-
-
-Java IP: [`vee.kinetic.host`](http://vee.kinetic.host)
-
+✩──────────────────✩──────────────────✩
+## Server Information
+Java IP: [`vee.kinetic.host`](http://vee.kinetic.host)\
 Java Port: `25590`
 
-Bedrock IP: [`172.240.47.111`](http://172.240.47.111)
-
+Bedrock IP: [`172.240.47.111`](http://172.240.47.111)\
 Bedrock Port: `27015`  
-\-
+✩──────────────────✩──────────────────✩
 
-Optional Mods: (Not available for Bedrock)
+## Optional Mods
+Optional Mods not available for Bedrock players.
 
-[Simple Voice Chat](https://modrinth.com/plugin/simple-voice-chat)
+[Simple Voice Chat](https://modrinth.com/plugin/simple-voice-chat)\
+[Female Gender Mod](https://modrinth.com/mod/female-gender)\
+✩──────────────────✩──────────────────✩\
+BlueMap: [http://skyfall.valerie.lol:25596/](http://skyfall.valerie.lol:25596/)\
+Dynmap: [http://skyfall.valerie.lol:25592](http://skyfall.valerie.lol:25592)\
+✩──────────────────✩──────────────────✩
 
-[Female Gender Mod](https://modrinth.com/mod/female-gender)  
-\-
-
-BlueMap: [http://skyfall.valerie.lol:25596/](http://skyfall.valerie.lol:25596/)
-
-Dynmap: [http://skyfall.valerie.lol:25592](http://skyfall.valerie.lol:25592)  
-\-
-
-Server automatically restarts every day, it will broadcast in the chat when it does.
-
-To join the server, link your Discord account to Minecraft in our Discord.
-
+Server automatically restarts every day, it will broadcast in the chat when it does.\
+To join the server, link your Discord account to Minecraft in our Discord.\
+✩──────────────────✩──────────────────✩\
 *Read and remember, **tides will turn.***

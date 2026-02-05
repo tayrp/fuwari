@@ -2,10 +2,10 @@
 title: Rose Haven Network
 published: 2026-02-05
 description: 'Rose Haven Network is an Anti-P2W Server Network with a Cobblemon server.'
-image: './media/corn_build1.png'
+image: './media/rhn/corn-build1.png'
 tags: ['Minecraft', 'Cobblemon', 'Pixelmon', 'Pokémon']
 category: 'Work'
-draft: true
+draft: false
 lang: 'en'
 ---
 # Rose Haven Network
@@ -38,7 +38,16 @@ Rose Haven Network is an **Anti-P2W** Server Network with a Cobblemon server, We
 Creating since ***February 15, 2023***.\
 ✩──────────────────✩──────────────────✩
 
-## How to Join
+## How to Join Us
 1. Download [Prism Launcher](https://prismlauncher.org/download/windows/), or [Modrinth App](https://modrinth.com/app).
 2. Download the [official Cobblemon Modpack](https://modrinth.com/modpack/cobblemon-fabric) for Fabric.
 3. Launch the game, and click "Add Server", enter the IP `rhn.valerie.lol`, and join it.
+
+## Legal
+All Rights Reserved unless explicitly stated.\
+Rose Haven Network is not affiliated with Cobblemon, Pokémon, or Minecraft.\
+Pokémon is a trademark of Nintendo, Creatures Inc. and GAME FREAK inc.\
+Minecraft is a trademark of Mojang AB.
+
+✩──────────────────✩──────────────────✩\
+*Read and remember, **tides will turn.***
