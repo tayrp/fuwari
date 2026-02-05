@@ -33,6 +33,8 @@ Please note that you do **NOT** need **any other mod than Cobblemon** to play th
 
 ✩──────────────────✩──────────────────✩
 ## A Little Bit About Us
+We consider ourselves to one of the best community-based server networks that exist, we pride ourselves in our work, and openly take suggestions, and recommendations from the community.
+
 Rose Haven Network is an **Anti-P2W** Server Network with a Cobblemon server, We also make projects such as Modpacks, Resource Packs and Data Packs on the side. We dedicate ourselves to making our servers better in any way possible, we even consider opinions and suggestions from our community! We would simply like to say, welcome to Rose Haven Network.
 
 Creating since ***February 15, 2023***.\
