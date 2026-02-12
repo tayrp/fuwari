@@ -59,9 +59,19 @@ export const profileConfig: ProfileConfig = {
 	bio: "Tides will turn.",
 	links: [
 		{
+			name: "Website",
+			icon: "fa6-brands:react",
+			url: "https://valerie.lol",
+		},
+		{
 			name: "Discord",
 			icon: "fa6-brands:discord",
 			url: "https://discord.gg/Edmk3Fxncx",
+		},
+		{
+			name: "Twitter",
+			icon: "fa6-brands:bluesky",
+			url: "https://bsky.app/profile/valerie.lol",
 		},
 		{
 			name: "Twitter",
