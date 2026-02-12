@@ -1,5 +1,5 @@
 ---
-title: test post deleting in a few
+title: test post deleting in a
 published: 2026-02-12
 description: 'Rose Haven Network is an Anti-P2W Server Network with a Cobblemon server.'
 image: './media/rhn/corn-build1.png'
