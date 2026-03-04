@@ -58,11 +58,11 @@ export const profileConfig: ProfileConfig = {
 	name: "Valerie",
 	bio: "Tides will turn.",
 	links: [
-		{
-			name: "Website",
-			icon: "fa6-brands:react",
-			url: "https://valerie.lol",
-		},
+		//{
+		//	name: "Website",
+		//	icon: "fa6-brands:react",
+		//	url: "https://valerie.lol",
+		//},
 		{
 			name: "Discord",
 			icon: "fa6-brands:discord",
