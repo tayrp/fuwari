@@ -2,8 +2,17 @@
 
 Hello, I'm Valerie, I love to listen to music, and I'm currently learning to play guitar. (is electric :3)
 
-<iframe width="100%" height="468" src="https://www.youtube.com/embed/arz4VAE_x0E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<iframe width="100%" height="468" src="https://www.youtube.com/embed/YiWVNMn9Cyo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe
+  data-testid="embed-iframe"
+  style="border-radius:12px"
+  src="https://open.spotify.com/embed/playlist/44m2UiI4BDuW8Y9mNW5ZeQ?utm_source=generator"
+  width="100%"
+  height="352"
+  frameborder="0"
+  allowfullscreen=""
+  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+  loading="lazy"
+></iframe>
 
-### Site Source
-::github{repo="tayrp/fuwari"}
+### Fuwari Source
+::github{repo="saicaca/fuwari"}
