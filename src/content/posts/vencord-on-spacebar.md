@@ -5,7 +5,7 @@ description: 'This guide will teach you how to use Vencord on Spacebar instances
 image: ''
 tags: [Spacebar, Modding, Guide, Windows, Linux]
 category: 'Guides'
-draft: true
+draft: false
 ---
 
 # Vencord on Spacebar
