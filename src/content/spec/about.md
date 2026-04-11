@@ -1,6 +1,6 @@
 # About
 
-Hello, I'm Valerie, I love to listen to music, and I'm currently learning to play guitar. (is electric :3)
+Hello there! 
 
 <iframe
   data-testid="embed-iframe"

@@ -34,6 +34,7 @@ Windows installation is simple, just run the `node-v24.14.0-x64.msi` file linked
 ---
 
 ### Part 1.2 (Linux)
+You can ingore Part 1.2 if you're not using a [Linux](https://en.wikipedia.org/wiki/Linux) operating system.
 <details>
 <summary>Linux Installation</summary>
 Linux installation is just as simple as installing on Windows, but with a few extra steps, it generally varies depending on which distribution you are using, in this specific guide I will show you how to install Node.js on Debian, and Arch Linux.

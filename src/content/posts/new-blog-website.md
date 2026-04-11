@@ -1,7 +1,7 @@
 ---
-title: New Blog Website
+title: Improved Blog Website
 published: 2026-01-25
-description: "I now have a new blog website"
+description: "I now have a new blog website!"
 image: ''
 tags: ['Fuwari']
 category: 'Personal'
@@ -17,7 +17,5 @@ I will be posting content related to myself and the things I work on, including 
 
 *Read and remember, **tides will turn.***
 ## Fuwari Source
+Licensing can be found at the bottom of the [Fuwari README.md](https://github.com/saicaca/fuwari?tab=readme-ov-file#-license).
 ::github{repo="saicaca/fuwari"}
-
-## MystixMew's Source
-::github{repo="tayrp/fuwari"}
