@@ -2,8 +2,8 @@
 title: MCU Movie Chronological
 published: 2025-09-30
 description: Chronological order of the MCU Movies
-tags: [Movies, Chronological, Marvel]
-category: Movies
+tags: ["Movies"]
+category: 'Movies'
 draft: false
 ---
 

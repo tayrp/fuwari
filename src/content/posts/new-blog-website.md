@@ -3,7 +3,7 @@ title: Improved Blog Website
 published: 2026-01-25
 description: "I now have a new blog website!"
 image: ''
-tags: ['Fuwari']
+tags: [""]
 category: 'Personal'
 draft: false
 lang: 'en'

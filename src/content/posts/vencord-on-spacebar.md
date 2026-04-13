@@ -3,7 +3,7 @@ title: Vencord on Spacebar
 published: 2026-03-10
 description: 'This guide will teach you how to use Vencord on Spacebar instances'
 image: ''
-tags: [Spacebar, Modding, Guide, Windows, Linux]
+tags: ["Spacebar", "Modding", "Guide", "Windows", "Linux"]
 category: 'Guides'
 draft: false
 ---

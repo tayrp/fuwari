@@ -3,13 +3,12 @@ title: Skyfall Survival
 published: 2026-02-03
 description: About my Skyfall Survival Minecraft server!
 image: './media/skyfall/skyfall-banner1.png'
-tags: [Minecraft, Gaming, Survival]
-category: Work
+tags: ["Minecraft", "Gaming", "Survival"]
+category: 'Work'
 draft: false
 ---
 
 # Skyfall Survival
-
 I have a Minecraft SMP, called Skyfall Survival, below is the Discord Invite, and more information.
 Discord: https://discord.gg/zJ86UT6kj7
 

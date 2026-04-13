@@ -2,8 +2,8 @@
 title: Arch Linux Experience
 published: 2025-06-09
 description: My experience with Arch Linux on Desktop so far
-tags: [Linux, Arch]
-category: Personal
+tags: ["Linux", "Arch"]
+category: 'Personal'
 draft: false
 ---
 
