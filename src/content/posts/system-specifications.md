@@ -1,16 +1,16 @@
 ---
-title: Compromised VPS
-published: 2026-04-12
-description: 'Addressing potential security concerns relating to my VPS'
-image: ''
-tags: [""]
-category: 'Work'
+title: Valerie's System Specifications
+published: 2026-05-09
+description: 'A post to list my system specs'
+image: './media/personal/system-specifications.png'
+tags: ["Linux", "CachyOS", "Arch", "Technology", "Computers"]
+category: 'Personal'
 draft: true
 lang: ''
 ---
-# Compromised VPS/Server
+# Valerie's System Specifications
 
-This is to address the state of my VPS server, as of 2026-04-12
+a
 
 # This Article is a Draft
 

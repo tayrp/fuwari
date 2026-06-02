@@ -1,6 +1,8 @@
 # About
 
-Hello there! 
+Hello there! My name is Valerie, I'm a transfem girl who identifies as Pansexual, primarily more Sapphic leaning. She/her pronouns. I'm 18, and have ADHD.\
+
+I am a huge fan of the [Fallout](https://en.wikipedia.org/wiki/Fallout_(franchise)) series.
 
 <iframe
   data-testid="embed-iframe"

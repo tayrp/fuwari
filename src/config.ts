@@ -45,6 +45,12 @@ export const navBarConfig: NavBarConfig = {
 		LinkPreset.Home,
 		LinkPreset.Archive,
 		LinkPreset.About,
+		//LinkPreset.Contact,
+		{
+			name: "Contact",
+			url: "mailto:contact@valerie.lol",
+			external: true,
+		},
 		//{
 		//	name: "GitHub",
 		//	url: "https://github.com/tayrp/fuwari", // Internal links should not include the base path, as it is automatically added
