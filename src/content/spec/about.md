@@ -3,6 +3,12 @@
 Hello there! My name is Valerie, I'm a transfem girl who identifies as Pansexual, primarily more [Sapphic](https://en.wikipedia.org/wiki/Sapphism) leaning. She/her pronouns. I'm 18, and have ADHD.\
 I am a huge fan of the [Fallout](https://en.wikipedia.org/wiki/Fallout_(franchise)) series.
 
+## Some of my projects
+Custom Auth Server\
+https://auth.valerie.lol/ (usually offline)\
+Cobblemon Snapshots\
+https://cdev.valerie.lol/
+
 <iframe
   data-testid="embed-iframe"
   style="border-radius:12px"
