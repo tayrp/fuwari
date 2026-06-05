@@ -64,25 +64,15 @@ export const profileConfig: ProfileConfig = {
 	name: "Valerie",
 	bio: "Tides will turn.",
 	links: [
-		{
-			name: "Website",
-			icon: "fa6-brands:react",
-			url: "https://valerie.lol",
-		},
+		//{
+		//	name: "Website",
+		//	icon: "fa6-brands:react",
+		//	url: "https://valerie.lol",
+		//},
 		{
 			name: "Discord",
 			icon: "fa6-brands:discord",
 			url: "https://discord.gg/Edmk3Fxncx",
-		},
-		{
-			name: "Bluesky",
-			icon: "fa6-brands:bluesky",
-			url: "https://bsky.app/profile/valerie.lol",
-		},
-		{
-			name: "Twitter",
-			icon: "fa6-brands:twitter",
-			url: "https://twitter.com/mystixmew",
 		},
 		{
 			name: "Steam",
@@ -95,9 +85,30 @@ export const profileConfig: ProfileConfig = {
 			url: "https://git.valerie.lol/mystixmew",
 		},
 		{
+			name: "Git",
+			icon: "fa6-brands:gitlab",
+			url: "https://gitlab.com/mystixmew",
+		},
+		// Social Media (Last.fmm, Bluesky, Twitter, etc)
+		{
 			name: "Last.fm",
 			icon: "fa6-brands:lastfm",
 			url: "https://last.fm/user/mystixmew",
+		},
+		{
+			name: "Bluesky",
+			icon: "fa6-brands:bluesky",
+			url: "https://bsky.app/profile/valerie.lol",
+		},
+		{
+			name: "Mastodon",
+			icon: "fa6-brands:mastodon",
+			url: "https://social.valerie.lol/@mystixmew",
+		},
+		{
+			name: "Twitter",
+			icon: "fa6-brands:twitter",
+			url: "https://twitter.com/mystixmew",
 		},
 	],
 };
