@@ -80,12 +80,12 @@ export const profileConfig: ProfileConfig = {
 			url: "https://steamcommunity.com/id/nukashine/",
 		},
 		{
-			name: "Git",
+			name: "Forgejo",
 			icon: "fa6-brands:git",
 			url: "https://git.valerie.lol/mystixmew",
 		},
 		{
-			name: "Git",
+			name: "GitLab",
 			icon: "fa6-brands:gitlab",
 			url: "https://gitlab.com/mystixmew",
 		},
@@ -109,6 +109,11 @@ export const profileConfig: ProfileConfig = {
 			name: "Twitter",
 			icon: "fa6-brands:twitter",
 			url: "https://twitter.com/mystixmew",
+		},
+		{
+			name: "Matrix",
+			icon: "fa6-brands:matrix",
+			url: "https://matrix.to/#/@mystixmew:valerie.lol",
 		},
 	],
 };
