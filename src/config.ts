@@ -106,14 +106,14 @@ export const profileConfig: ProfileConfig = {
 			url: "https://social.valerie.lol/@mystixmew",
 		},
 		{
+			name: "Matrix",
+			icon: "simple-icons:matrix",
+			url: "https://matrix.to/#/@mystixmew:valerie.lol",
+		},
+		{
 			name: "Twitter",
 			icon: "fa6-brands:twitter",
 			url: "https://twitter.com/mystixmew",
-		},
-		{
-			name: "Matrix",
-			icon: "fa6-brands:matrix",
-			url: "https://matrix.to/#/@mystixmew:valerie.lol",
 		},
 	],
 };
