@@ -66,9 +66,10 @@ export const profileConfig: ProfileConfig = {
 	links: [
 		//{
 		//	name: "Website",
-		//	icon: "fa6-brands:react",
+		//	icon: "simple-icons:astro",
 		//	url: "https://valerie.lol",
 		//},
+		// Main (Discord, Steam, etc.)
 		{
 			name: "Discord",
 			icon: "fa6-brands:discord",
@@ -79,6 +80,7 @@ export const profileConfig: ProfileConfig = {
 			icon: "fa6-brands:steam",
 			url: "https://steamcommunity.com/id/nukashine/",
 		},
+		// Git (Forgejo, GitLab, Codeberg, etc.)
 		{
 			name: "Forgejo",
 			icon: "fa6-brands:git",
@@ -94,7 +96,7 @@ export const profileConfig: ProfileConfig = {
 			icon: "simple-icons:codeberg",
 			url: "https://codeberg.org/mystixmew",
 		},
-		// Social Media (Last.fmm, Bluesky, Twitter, etc)
+		// Social Media (Last.fm, Bluesky, Twitter, etc.)
 		{
 			name: "Last.fm",
 			icon: "fa6-brands:lastfm",
