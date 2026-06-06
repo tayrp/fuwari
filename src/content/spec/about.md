@@ -8,7 +8,7 @@ Partnered with [Kinetic Hosting](https://hey.valerie.lol/go/kinetic).\
 Founder of Rose Haven Network, and Skyfall Survival.
 
 ## Some of my projects
-Projects Summary - [https://git.valerie.lol](https://git.valerie.lol/mystixmew/mystixmew/src/branch/main/README.md) \
+Projects Summary - [PROJECTS.md](https://git.valerie.lol/mystixmew/mystixmew/src/branch/main/PROJECTS.md) \
 Custom Auth Server - https://auth.valerie.lol \
 Cobblemon Snapshots - https://cdev.valerie.lol
 

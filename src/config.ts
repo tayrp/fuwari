@@ -89,6 +89,11 @@ export const profileConfig: ProfileConfig = {
 			icon: "fa6-brands:gitlab",
 			url: "https://gitlab.com/mystixmew",
 		},
+		{
+			name: "Codeberg",
+			icon: "simple-icons:codeberg",
+			url: "https://codeberg.org/mystixmew",
+		},
 		// Social Media (Last.fmm, Bluesky, Twitter, etc)
 		{
 			name: "Last.fm",
