@@ -122,6 +122,12 @@ export const profileConfig: ProfileConfig = {
 			icon: "fa6-brands:twitter",
 			url: "https://twitter.com/mystixmew",
 		},
+		// Random stuff
+		{
+			name: "Instatus",
+			icon: "simple-icons:instatus",
+			url: "https://valerie.instatus.com",
+		},
 	],
 };
 
