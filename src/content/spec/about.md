@@ -12,6 +12,7 @@ Projects Summary - [PROJECTS.md](https://git.valerie.lol/mystixmew/mystixmew/src
 Custom Auth Server - https://auth.valerie.lol \
 Cobblemon Snapshots - https://cdev.valerie.lol
 
+## Music stuff :3
 The current song I am listening to will show under this, if there is no song displaying above the playlist, it means I am not listening to any music right now.
 <iframe
 src="../socket-widget.min.html"
