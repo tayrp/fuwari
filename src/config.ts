@@ -60,7 +60,7 @@ export const navBarConfig: NavBarConfig = {
 };
 
 export const profileConfig: ProfileConfig = {
-	avatar: "assets/images/avatar.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+	avatar: "assets/images/silly-cat-sapphic.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
 	name: "Valerie",
 	bio: "Tides will turn.",
 	links: [
@@ -127,6 +127,12 @@ export const profileConfig: ProfileConfig = {
 			name: "Instatus",
 			icon: "simple-icons:instatus",
 			url: "https://valerie.instatus.com",
+		},
+		// Not proud of these
+		{
+			name: "Roblox",
+			icon: "fa6-brands:roblox",
+			url: "https://www.roblox.com/gift-robux?user=477601761",
 		},
 	],
 };
