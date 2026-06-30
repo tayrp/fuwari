@@ -131,7 +131,7 @@ export const profileConfig: ProfileConfig = {
 		// Not proud of these
 		{
 			name: "Roblox",
-			icon: "fa6-brands:roblox",
+			icon: "simple-icons:roblox",
 			url: "https://www.roblox.com/gift-robux?user=477601761",
 		},
 	],
