@@ -1,6 +1,6 @@
 # About
 
-Hello there! My name is Valerie, I'm a transfem girl who identifies as Pansexual, primarily more [Sapphic](https://en.wikipedia.org/wiki/Sapphism) leaning. She/her pronouns. I'm 18, and have ADHD.\
+Hello there! I go by Valerie (Vee), and Bri (Brianna), I'm a transfem girl who identifies as Pansexual, primarily more [Sapphic](https://en.wikipedia.org/wiki/Sapphism) leaning. She/her pronouns. I'm 18, and have ADHD.\
 I am a huge fan of the [Fallout](https://en.wikipedia.org/wiki/Fallout_(franchise)) series.
 
 Community Support @ [Cobblemon](https://cobblemon.com/en).\
