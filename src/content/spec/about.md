@@ -9,7 +9,7 @@ Founder of [Rose Haven Network](https://blog.valerie.lol/posts/rose-haven-networ
 
 ## Contact Me
 Before messaging me on any platform, please read [No Hello](https://nohello.net/), [Dont Ask to Ask](https://dontasktoask.com/), and the [XY Problem](https://xyproblem.info/).\
-If you are messaging me on any platoform, please be straight to the point and concise, especially on email, I do not have the time to read short messages, then have to ask for more information because it wasn't included previously.\
+If you are messaging me on any platform, please be clear and concise, especially on email. I do not have the time to read short messages, then need to ask for more information because it was never specified beforehand.\
 Public Email: [contact@valerie.lol](mailto:contact@valerie.lol)
 
 ## Public Projects
