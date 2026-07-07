@@ -1,18 +1,22 @@
-# About
+# About Me
 
-Hello there! I go by Valerie (Vee), and Bri (Brianna), I'm a transfem girl who identifies as Pansexual, primarily more [Sapphic](https://en.wikipedia.org/wiki/Sapphism) leaning. She/her pronouns. I'm 18, and have ADHD.\
+Hello there! I go by Valerie (Vee), and Bri (Brianna and Briana), I'm a transfem girl who identifies as Pansexual, primarily more [Sapphic](https://en.wikipedia.org/wiki/Sapphism) leaning. She/her pronouns. I'm 18, and have ADHD.\
 I am a huge fan of the [Fallout](https://en.wikipedia.org/wiki/Fallout_(franchise)) series.
 
 Community Support @ [Cobblemon](https://cobblemon.com/en).\
 Partnered with [Kinetic Hosting](https://hey.valerie.lol/go/kinetic).\
-Founder of Rose Haven Network, and Skyfall Survival.
+Founder of [Rose Haven Network](https://blog.valerie.lol/posts/rose-haven-network/), and [Skyfall Survival](https://blog.valerie.lol/posts/skyfall-survival/).
 
-## Some of my projects
+## Contact Me
+Before messaging me on any platform, please read [No Hello](https://nohello.net/), [Dont Ask to Ask](https://dontasktoask.com/), and the [XY Problem](https://xyproblem.info/).
+Public Email: [contact@valerie.lol](mailto:contact@valerie.lol)
+
+## Public Projects
 Projects Summary - [PROJECTS.md](https://git.valerie.lol/mystixmew/mystixmew/src/branch/main/PROJECTS.md) \
 Custom Auth Server - https://auth.valerie.lol \
 Cobblemon Snapshots - https://cdev.valerie.lol
 
-## Music stuff :3
+## Music Stuff :3
 The current song I am listening to will show under this, if there is no song displaying above the playlist, it means I am either not listening to music, or I am not using Apple Music at the moment.
 <iframe
 src="../socket-widget.min.html"
@@ -32,5 +36,5 @@ loading="lazy">
   loading="lazy"
 ></iframe>
 
-### Fuwari Source
+### Fuwari Source (Credits)
 ::github{repo="saicaca/fuwari"}
