@@ -3,6 +3,8 @@
 Hello there! I go by Valerie (Vee), and Bri (Brianna and Briana), I'm a transfem girl who identifies as Pansexual, primarily more [Sapphic](https://en.wikipedia.org/wiki/Sapphism) leaning. She/her pronouns. I'm 18, and have ADHD.\
 I am a huge fan of the [Fallout](https://en.wikipedia.org/wiki/Fallout_(franchise)) series.
 
+Gift me items from my wishlist on [Steam](https://store.steampowered.com/wishlist/id/nukashine/?categoryids=184098)!
+
 Community Support @ [Cobblemon](https://cobblemon.com/en).\
 Partnered with [Kinetic Hosting](https://hey.valerie.lol/go/kinetic).\
 Founder of [Rose Haven Network](https://blog.valerie.lol/posts/rose-haven-network/), and [Skyfall Survival](https://blog.valerie.lol/posts/skyfall-survival/).
