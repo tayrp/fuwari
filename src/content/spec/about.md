@@ -1,7 +1,8 @@
 # About Me
 
-Hello there! I go by Valerie (Vee), and Bri (Brianna and Briana), I'm a transfem girl who identifies as Pansexual, primarily more [Sapphic](https://en.wikipedia.org/wiki/Sapphism) leaning. She/her pronouns. I'm 18, and have ADHD.\
-I am a huge fan of the [Fallout](https://en.wikipedia.org/wiki/Fallout_(franchise)) series.
+Hello there! I go by Valerie (Vee), and Bri (Briana), I'm a transfem girl who identifies as Pansexual, primarily more [Sapphic](https://en.wikipedia.org/wiki/Sapphism) leaning. She/her pronouns. I'm 18, and have ADHD.\
+I enjoy listening to music, and I am learning to play the Guitar.\
+I'm a huge fan of the [Fallout](https://en.wikipedia.org/wiki/Fallout_(franchise)) series.
 
 Gift me items from my wishlist on [Steam](https://store.steampowered.com/wishlist/id/nukashine/?categoryids=184098)!
 
