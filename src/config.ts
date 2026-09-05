@@ -128,6 +128,12 @@ export const profileConfig: ProfileConfig = {
 			icon: "simple-icons:instatus",
 			url: "https://valerie.instatus.com",
 		},
+		// Games
+		{
+			name: "osu!",
+			icon: "simple-icons:osu",
+			url: "https://osu.ppy.sh/users/38764485",
+		},
 		// Not proud of these
 		{
 			name: "Roblox",
